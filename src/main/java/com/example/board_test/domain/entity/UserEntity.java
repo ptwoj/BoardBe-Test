@@ -15,7 +15,7 @@ import java.util.List;
 public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public Long id;
+    public Long userId;
 
     @Column(unique = true, nullable = false)
     private String email;

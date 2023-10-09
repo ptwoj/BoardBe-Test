@@ -1,4 +1,6 @@
 package com.example.board_test.domain.request;
 
-public class LoginRequest {
+public record LoginRequest(
+        String email,
+        String pw) {
 }
